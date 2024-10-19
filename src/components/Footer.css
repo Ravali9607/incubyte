@@ -1,0 +1,154 @@
+.section {
+    background-color: black;
+    height: auto;
+}
+.footer-img {
+    width: 150px;
+    
+}
+
+
+
+
+
+  .footer-top .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-top-links {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+ .footer-top-links ul {
+  list-style: none;
+  margin: 0 10px; 
+  padding: 0;
+  display: inline; 
+}
+  
+.footer-top-links ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    white-space: nowrap; 
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-top-links ul a:hover {
+    color: #007bff;
+  }
+  
+  .socials ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  
+  .socials ul li {
+    margin: 0 10px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #343a40;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .list-inline {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .list-inline-item {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .social-icon:hover {
+    color: #007bff;
+  }
+  .socials {
+    justify-content: center;
+  }
+  .social-icon{
+    color: white;
+  }
+
+  .inner-border{
+    color: white;
+    text-align: center;
+  }
+  .footer-bottom-links{
+    justify-content: center;
+  }
+  .footer-blog {
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+
+  .footer-bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid #ccc; /* Outer border */
+}
+
+
+
+.footer-bottom-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-bottom-links a:hover {
+    text-decoration: underline;
+}
+
+.socials .social-icon {
+    font-size: 20px;
+    color: #000;
+}
+
+.bg-custom {
+    background-color: black; 
+}
+
+@media (max-width: 767.98px) {
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-bottom-links {
+        margin-top: 10px;
+        /* justify-content: center; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

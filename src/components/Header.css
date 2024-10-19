@@ -1,0 +1,65 @@
+/* Header.css */
+.navigation-bar {
+    background-color: #fff; 
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: #0e3252 !important;
+    padding: 8px 50px;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  }
+  
+ 
+  
+  .nav-search-input {
+    border: 1px solid #ced4da; 
+  }
+  
+  .nav-search-button {
+    background-color: #0f2f4c; 
+    color: white; 
+    border-radius: 0px 20px 20px 0px;
+  }
+  button #search-button {
+    background-color: '';
+}
+  
+ 
+  .theme-toggle {
+    cursor: pointer; 
+    font-size: 1.5rem; 
+  }
+  
+  .big-btn2 {
+    background-color: #0f2f4c;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    padding: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 20px;
+  }
+  .half-moon {
+    font-size: 24px;
+  }
+  .big-btn2:hover {
+    background-color: #218838; 
+  }
+
+ .mx-auto {
+    margin-left: auto !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+}
+
+@media (max-width: 767px) {
+    .big-btn2 {
+        width: 148px;
+    }
+  }
