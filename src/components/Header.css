@@ -58,8 +58,21 @@
     margin-right: auto !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .big-btn2 {
         width: 148px;
+    }
+  }
+
+
+  @media (max-width: 375px) {
+    .big-btn2 {
+        width: 196px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .big-btn2 {
+        width: 214px;
     }
   }
