@@ -71,6 +71,13 @@
     }
   }
 
+
+  @media (min-width: 320px) and (max-width: 576px) {
+    .big-btn2 {
+        width: 214px;
+    }
+}
+
   @media (max-width: 320px) {
     .big-btn2 {
         width: 214px;
